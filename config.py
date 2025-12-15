@@ -11,7 +11,7 @@ API_ID = 20985052
 API_HASH = "312f192ca95e6f9bc634bd7d9fb2056b"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7527379566:AAGa0v4OVbV7sqKtrAmZMVJhCyQYFe04rN4"
+BOT_TOKEN = "8220591937:AAGDN5Ymix7hhAiIeD0nVFoEnCSsGf4AP-E"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true&w=majority"
@@ -112,3 +112,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
