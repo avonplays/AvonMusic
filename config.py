@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002643783065
+LOG_GROUP_ID = -1002353470224
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 6887657313
@@ -112,4 +112,5 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
