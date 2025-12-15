@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 20985052
-API_HASH = "312f192ca95e6f9bc634bd7d9fb2056b"
+API_ID = 37117827
+API_HASH = "5eb1a6965aa5c5fdb59b89479931058d"
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = "8220591937:AAGDN5Ymix7hhAiIeD0nVFoEnCSsGf4AP-E"
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION1", "BQFANNwAZhHrwDI6XB8z7aRGSbyXm_mhmj1XGdK7LqqjSpN5Qjy-RMQ5eZ3qEgcwYWhuTECOLY2BWXow-4a8VQwJ8hLzeQ07ik5-iqs8sGoGSeAqofBnT0jZCl1M2o5Cogr3_1nb5Du9VOmlREtikSnbtMhLlV4JGka0CKV6NaDjblfweaXPpeKetlfPJa_xK8yGxSQTgNWH-doC_ROdxv_p3IG9BZIfAAugNKThPOhiXeGkSSVzc8nnHUhu_TuukvrDjkp8GP1HkvX8n_NS3Fm1h3jstvfNMofuDW00vsSuCobui5D4SAcPI9blrVvVujSMiWRMx-Oy0-kXXkCv2Q5p5Mm-_QAAAAHkuxf_AA")
+STRING1 = getenv("STRING_SESSION1", "BQI2X4MALUbG8feSHlRl2LRyKJlM7OeGdGgpNWJszu-d-bH1EKt3Ne3CWs9wbKX-76NdGxrK8jtpyTTsrx9BLBI26eqy8_K5IuVXP5zGhqF9g_xFAh81d9a1nzaYBaEsQtomKSPsOe9pSo0qTCBO-l0vIvMvYevDDrFEwY3iPlWIQB1mUYbxHBXw1E9Z-cZU0EY4YhtTuXvpQH7NXXU2reR-Wy4JMJyUi9nvOMT3YtKqVULrqgrqOrezslP9wKdiIIkWiECgFvHH7PprTPWmWAagmxFcAu_iRiKqFzsWiSQeXg4_66fASoDi7oMoZ1Gnp21Mm0qstzpqADYjl1lQvIOZoWbMvgAAAAGmsRhEAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -112,6 +112,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
